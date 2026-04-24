@@ -6,7 +6,7 @@
         <meta name="author" content="Gramentheme">
         <meta name="description" content="Brevon - Multipurpose Business HTML Template">
         <!-- ======== Page title ============ -->
-        <title>Neotix - IT Service & Solution HTML Template</title>
+        <title>Zirg - Contabilidade</title>
         <!--<< Favcion >>-->
         <link rel="shortcut icon" href="{{asset('peterson/img/favicon.svg')}}">
         <!--<< Bootstrap min.css >>-->
@@ -25,4 +25,6 @@
         <link rel="stylesheet" href="{{asset('peterson/css/nice-select.css')}}">
         <!--<< Main.css >>-->
         <link rel="stylesheet" href="{{asset('peterson/css/main.css')}}">
+
+        <link rel="stylesheet" href="{{asset('peterson/css/estilo.css')}}">
     </head>

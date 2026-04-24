@@ -35,7 +35,7 @@
                         <div class="offcanvas__top mb-5 d-flex justify-content-between align-items-center">
                             <div class="offcanvas__logo">
                                 <a href="index.html">
-                                    <img src="{{ asset('peterson/img/logo/black-logo.svg" alt="logo-img') }}">
+                                    <img src="{{ asset('peterson/img/logo/logozirg.png') }}" alt="logo-img" sizes="50" class="logo-zirg" style="width: 50px">
                                 </a>
                             </div>
                             <div class="offcanvas__close">
@@ -107,10 +107,10 @@
                         <div class="header-left">
                             <div class="logo">
                                 <a href="index.html" class="header-logo">
-                                    <img src="{{ asset('peterson/img/logo/white-logo.svg') }}" alt="logo-img">
+                                    <img src="{{ asset('peterson/img/logozirg.png') }}" alt="logo-img" sizes="50" class="logo-zirg"  style="width: 100px">
                                 </a>
                                 <a href="index.html" class="header-logo-2">
-                                    <img src="{{ asset('peterson/img/logo/black-logo.svg') }}" alt="logo-img">
+                                    <img src="{{ asset('peterson/img/logozirg.png') }}" alt="logo-img" sizes="50" class="logo-zirg"  style="width: 100px"    > 
                                 </a>
                             </div>
                         </div>

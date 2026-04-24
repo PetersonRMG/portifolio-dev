@@ -4,30 +4,19 @@
                 <div class="spinner">
                 </div>
                 <div class="txt-loading">
-                    <span data-text-preloader="P" class="letters-loading">
-                        P
+                    <span data-text-preloader="Z" class="letters-loading">
+                        Z
                     </span>
-                    <span data-text-preloader="E" class="letters-loading">
-                        E
-                    </span>
-                    <span data-text-preloader="T" class="letters-loading">
-                        T
-                    </span>
-                    <span data-text-preloader="E" class="letters-loading">
-                        E
+                    <span data-text-preloader="I" class="letters-loading">
+                        I
                     </span>
                     <span data-text-preloader="R" class="letters-loading">
                         R
                     </span>
-                    <span data-text-preloader="S" class="letters-loading">
-                        S
+                    <span data-text-preloader="G" class="letters-loading">
+                        G
                     </span>
-                    <span data-text-preloader="O" class="letters-loading">
-                        O
-                    </span>
-                    <span data-text-preloader="N" class="letters-loading">
-                        N
-                    </span>
+                    
                 </div>
                 <p class="text-center">Loading</p>
             </div>
