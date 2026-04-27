@@ -437,6 +437,13 @@
     });
    }
 
+   document.querySelectorAll('.swiper').forEach(el => {
+    console.log(
+        el.className,
+        el.querySelectorAll('.swiper-slide').length
+    );
+});
+
    /* ================================
       Service Slider-3 Js Start
     ================================ */
@@ -480,6 +487,8 @@
         },
     });
    }
+
+   
 
    document.querySelectorAll('.tw-hover-btn').forEach(btn => {
     const circle = btn.querySelector('.tw-btn-circle-dot');
@@ -578,7 +587,7 @@ if (document.querySelectorAll(".marquee-group").length) {
     }
  
    //>>box Slider Start <<//
-      if($('.box-slider').length > 0) {
+      if($('.box-slider .swiper-slide').length > 0) {
         const BoxSlider = new Swiper(".box-slider", {
             slidesPerView: 'auto',
             spaceBetween: 20,
@@ -595,7 +604,7 @@ if (document.querySelectorAll(".marquee-group").length) {
     }
 
     //>>box Slider2 Start <<//
-    if($('.box-slider-2').length > 0) {
+    if($('.box-slider-2 .swiper-slide').length > 0) {
         const BoxSlider2 = new Swiper(".box-slider-2", {
             slidesPerView: 'auto',
             spaceBetween: 20,

@@ -26,5 +26,5 @@
         <!--<< Main.css >>-->
         <link rel="stylesheet" href="{{asset('peterson/css/main.css')}}">
 
-        <link rel="stylesheet" href="{{asset('peterson/css/estilo.css')}}">
+        {{-- <link rel="stylesheet" href="{{asset('peterson/css/estilo.css')}}"> --}}
     </head>
