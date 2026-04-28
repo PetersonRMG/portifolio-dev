@@ -101,16 +101,16 @@
 
         <!-- Header Section Start -->
         <header id="header-sticky" class="header-1">
-            <div class="container-fluid bg-primary">
+            <div class="container-fluid ">
                 <div class="mega-menu-wrapper">
                     <div class="header-main">
                         <div class="header-left">
                             <div class="logo">
                                 <a href="index.html" class="header-logo">
-                                    <img src="{{ asset('peterson/img/logozirg.png') }}" alt="logo-img" sizes="50" class="logo-zirg"  style="width: 100px">
+                                    <img src="{{ asset('peterson/img/logozirg.png') }}" alt="logo-img" class="logo-zirg" >
                                 </a>
                                 <a href="index.html" class="header-logo-2">
-                                    <img src="{{ asset('peterson/img/logozirg.png') }}" alt="logo-img" sizes="50" class="logo-zirg"  style="width: 100px"    > 
+                                    <img src="{{ asset('peterson/img/logozirg.png') }}" alt="logo-img"  class="logo-zirg"     > 
                                 </a>
                             </div>
                         </div>
