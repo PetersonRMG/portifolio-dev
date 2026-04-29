@@ -25,13 +25,17 @@ Version: 1.0.0
   --body: #fff;
   --black: #000;
   --white: #fff;
-  --theme: #347ebb;
+  --theme: #d6ab00;
   --header: #0B0D17;
   --text: #534F5A;
   --border: #02060A;
   --bg: #EFEDE5;
   --bg2: #0F172A;
   --box-shadow: 0px 1px 14px 0px rgba(0, 0, 0, 0.13);
+}
+
+.ativo {
+    color: var(--theme);
 }
 
 /*---------------------------------------
@@ -3153,7 +3157,7 @@ span {
 .contact-us-wrapper .contact-box {
   margin-left: 50px;
   background: rgba(255, 255, 255, 0.1);
-  border-top: 3px solid #F94D00;
+  border-top: 3px solid var(--theme);
   backdrop-filter: blur(16px);
   border-radius: 12px;
   padding: 60px 30px;

@@ -8,10 +8,10 @@
                             <div class="footer-widget-wrapper">
                                 <div class="row justify-content-between">
                                     <div class="col-xl-4 col-lg-5 col-md-6 wow fadeInUp" data-wow-delay=".2s">
-                                        <div class="footer-widget-items">
-                                            <div class="widget-head">
-                                                <a href="index.html" class="footer-logo">
-                                                    <img src="assets/img/logo/white-logo.svg" alt="img">
+                                        <div class="footer-widget-items     ">
+                                            <div class="widget-head ">
+                                                <a href="index.html" class="logo-footer">
+                                                    <img src="{{asset('peterson/img/logozirg.png')}}" alt="img">
                                                 </a>
                                             </div>
                                             <div class="footer-content">

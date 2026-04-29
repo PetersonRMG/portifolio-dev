@@ -1,0 +1,236 @@
+@php
+    $bgnews = asset('peterson/img/breadcrumb.jpg')
+
+@endphp
+
+<!-- Breadcrumb Section Start -->
+<div class="breadcrumb-wrapper bg-cover" style="background-image: url('{{$bgnews}}');">
+    <div class="container">
+        <div class="page-heading">
+            <div class="breadcrumb-sub-title">
+                <h1 class="text-white wow fadeInUp" data-wow-delay=".3s">Blog Standard</h1>
+            </div>
+            <ul class="breadcrumb-items wow fadeInUp" data-wow-delay=".5s">
+                <li>
+                    <a href="index.html">
+                        <i class="fa-solid fa-house"></i> Home
+                    </a>
+                </li>
+                <li>
+                    /
+                </li>
+                <li>
+                    Blog Standard
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<!-- News-Details Section Start -->
+<section class="news-standard-section section-padding">
+    <div class="container">
+        <div class="gt-news-standard-wrapper">
+            <div class="row g-4">
+                <div class="col-12 col-lg-8">
+                    <div class="gt-news-standard-items">
+                        <div class="gt-news-card-items-4">
+                            <div class="gt-news-image">
+                                <img src="{{asset ('peterson/img/inner-page/blog-post-1.jpg')}}" alt="img">
+                            </div>
+                            <div class="gt-news-content">
+                            <ul class="gt-date-list">
+                                    <li>
+                                        <i class="fa-solid fa-calendar-days"></i>
+                                        11 March 2025
+                                    </li>
+                                    <li>
+                                        <i class="fa-solid fa-comments"></i>
+                                        19 Comments
+                                    </li>
+                                </ul>
+                                <h3>
+                                    <a href="news-details.html">
+                                    Leading Through Change: Proven Lessons for Effective Change Management in Business
+                                    </a>
+                                </h3>
+                            <p>
+                                "Relive every thrilling moment from this week’s matches — from the opening kickoff to the final whistle, with expert commentary, key plays, and unforgettable highlights 
+                            </p>
+                                <a href="news-details.html" class="theme-btn">
+                                    Read More <i class="fa-solid fa-arrow-up-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="gt-news-card-items-4">
+                            <div class="gt-news-image">
+                                <img src="{{asset ('peterson/img/inner-page/blog-post-2.jpg')}}" alt="img">
+                            </div>
+                            <div class="gt-news-content">
+                            <ul class="gt-date-list">
+                                <li>
+                                    <i class="fa-solid fa-calendar-days"></i>
+                                    11 March 2025
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-comments"></i>
+                                    19 Comments
+                                </li>
+                            </ul>
+                            <h3>
+                                <a href="news-details.html">
+                                Harnessing Digital Transformation: A Roadmap to Future-Proof Your Business
+                                </a>
+                            </h3>
+                            <p>
+                                Follow our journey through the highs and lows of the season, capturing every victory, setback, and defining moment on the road to claiming the ultimate championship glory.
+                            </p>
+                            <a href="news-details.html" class="theme-btn">
+                                    Read More <i class="fa-solid fa-arrow-up-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="gt-news-card-items-4 mb-0">
+                            <div class="gt-news-image">
+                                <img src="{{asset ('peterson/img/inner-page/blog-post-3.jpg')}}" alt="img">
+                            </div>
+                            <div class="gt-news-content">
+                            <ul class="gt-date-list">
+                                <li>
+                                    <i class="fa-solid fa-calendar-days"></i>
+                                    11 March 2025
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-comments"></i>
+                                    19 Comments
+                                </li>
+                            </ul>
+                            <h3>
+                                <a href="news-details.html">
+                                Unlocking Business Potential: Innovative Solutions for Unmatched Success
+                                </a>
+                            </h3>
+                            <p>
+                                Our Youth Academy is dedicated to developing future football stars, providing top-tier coaching, essential skills, and a strong foundation to nurture talent and inspire 
+                            </p>
+                                <a href="news-details.html" class="theme-btn">
+                                    Read More <i class="fa-solid fa-arrow-up-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="page-nav-wrap text-center">
+                            <ul>
+                                <li><a class="page-numbers" href="#"><i class="fa-solid fa-arrow-up-left"></i></a></li>
+                                <li class="active"><a class="page-numbers" href="#">01</a></li>
+                                <li><a class="page-numbers" href="#">02</a></li>
+                                <li><a class="page-numbers" href="#">03</a></li>
+                                <li><a class="page-numbers" href="#"><i class="fa-solid fa-arrow-up-right"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-12">
+                    <div class="gt-main-sideber sticky-style">
+                        <div class="gt-single-sideber-widget">
+                            <div class="gt-widget-title">
+                                <h3>Search</h3>
+                            </div>
+                            <div class="gt-search-widget">
+                                <form action="#">
+                                    <input type="text" placeholder="Search here">
+                                    <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="gt-single-sideber-widget">
+                            <div class="gt-widget-title">
+                                <h3>All Categories</h3>
+                            </div>
+                            <ul class="gt-category-list">
+                                <li><a href="news-details.html">Branding  </a><span>(08)</span></li>
+                                <li><a href="news-details.html">Business </a><span>(02)</span></li>
+                                <li><a href="news-details.html">Consulting </a><span>(10)</span></li>
+                                <li><a href="news-details.html">Innovations  </a><span>(15)</span></li>
+                                <li><a href="news-details.html">Managements </a><span>(12)</span></li>
+                                <li><a href="news-details.html">SEO Marketing  </a><span>(07)</span></li>
+                            </ul>
+                        </div>
+                        <div class="gt-single-sideber-widget">
+                            <div class="gt-widget-title">
+                                <h3>Recent Post</h3>
+                            </div>
+                            <div class="gt-recent-post-area">
+                                <div class="gt-recent-items">
+                                    <div class="gt-recent-thumb">
+                                        <img src="{{asset ('peterson/img/inner-page/post-1.jpg')}}" alt="img">
+                                    </div>
+                                    <div class="gt-recent-content">
+                                        <h5>
+                                            <a href="news-details.html">
+                                            How to Stay Ahead of the Business Curve
+                                            </a>
+                                        </h5>
+                                        <ul>
+                                            <li>
+                                                March 26, 2025
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="gt-recent-items">
+                                    <div class="gt-recent-thumb">
+                                        <img src="{{asset ('peterson/img/inner-page/post-2.jpg')}}" alt="img">
+                                    </div>
+                                    <div class="gt-recent-content">
+                                        <h5>
+                                            <a href="news-details.html">
+                                            How Digital Tools Shaping the Workforce
+                                            </a>
+                                        </h5>
+                                        <ul>
+                                            <li>
+                                                March 26, 2025
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="gt-recent-items">
+                                    <div class="gt-recent-thumb">
+                                    <img src="{{asset ('peterson/img/inner-page/post-3.jpg')}}" alt="img">
+                                    </div>
+                                    <div class="gt-recent-content">
+                                        <h5>
+                                            <a href="news-details.html">
+                                            How to Sustainability into your Strategy
+                                            </a>
+                                        </h5>
+                                        <ul>
+                                            <li>
+                                                March 26, 2025
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="gt-single-sideber-widget mb-0">
+                            <div class="gt-widget-title">
+                                <h3>Popular Tags</h3>
+                            </div>
+                            <div class="tagcloud">
+                                <a href="news-details.html">Growth</a>     
+                                <a href="news-details.html">Success</a>
+                                <a href="news-details.html">Innovate</a>
+                                <a href="news-details.html">Lead</a>
+                                <a href="news-details.html">Impact</a>
+                                <a href="news-details.html">Focus</a>
+                                <a href="news-details.html">Tech</a>
+                                <a href="news-details.html">Optimize</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

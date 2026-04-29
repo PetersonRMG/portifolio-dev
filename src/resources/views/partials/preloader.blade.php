@@ -18,7 +18,7 @@
                     </span>
                     
                 </div>
-                <p class="text-center">Loading</p>
+                <p class="text-center">carregando...</p>
             </div>
             <div class="loader">
                 <div class="row">

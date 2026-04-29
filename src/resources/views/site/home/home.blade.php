@@ -2,25 +2,25 @@
 
 @section('content')
 
-@include('site.hero.hero')
+@include('site.home.hero')
 
-@include('site.about.about')
+@include('site.home.about')
 
-@include('site.service.service')
+@include('site.home.service')
 
-@include('site.project.project')
+@include('site.home.project')
 
-@include('site.count.count')
+@include('site.home.count')
 
-@include('site.testimonial.testimonial')
+@include('site.home.testimonial')
 
-@include('site.team.team')
+@include('site.home.team')
 
-@include('site.faq.faq')
+@include('site.home.faq')
 
-@include('site.marquee.marquee')
+@include('site.home.marquee')
 
-@include('site.news.news')
+@include('site.home.news')
 
 
 

@@ -2,6 +2,6 @@
 
 @section('content')
 
-@include('site.service.content')
+@include('site.contact.content')
 
 @endsection

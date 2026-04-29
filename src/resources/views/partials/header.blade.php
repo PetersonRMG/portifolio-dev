@@ -1,4 +1,8 @@
         <div class="header-top-section ">
+            <?php
+            $pgAtual = basename(path: $_SERVER['REQUEST_URI']);
+            
+            ?>
             <div class="container-fluid  ">
                 <div class="header-top-wrapper ">
                     <div class="header-left ">
@@ -35,7 +39,8 @@
                         <div class="offcanvas__top mb-5 d-flex justify-content-between align-items-center">
                             <div class="offcanvas__logo">
                                 <a href="index.html">
-                                    <img src="{{ asset('peterson/img/logo/logozirg.png') }}" alt="logo-img" sizes="50" class="logo-zirg" style="width: 50px">
+                                    <img src="{{ asset('peterson/img/logo/logozirg.png') }}" alt="logo-img"
+                                        sizes="50" class="logo-zirg" style="width: 50px">
                                 </a>
                             </div>
                             <div class="offcanvas__close">
@@ -100,17 +105,19 @@
         <div class="offcanvas__overlay"></div>
 
         <!-- Header Section Start -->
-        <header id="header-sticky" class="header-1">
-            <div class="container-fluid ">
+        <header id="header-sticky " class="header-1">
+            <div class="container-fluid bg-dark">
                 <div class="mega-menu-wrapper">
                     <div class="header-main">
                         <div class="header-left">
                             <div class="logo">
-                                <a href="index.html" class="header-logo">
-                                    <img src="{{ asset('peterson/img/logozirg.png') }}" alt="logo-img" class="logo-zirg" >
+                                <a href="{{ route('home') }}" class="header-logo">
+                                    <img src="{{ asset('peterson/img/logozirg.png') }}" alt="logo-img"
+                                        class="logo-zirg">
                                 </a>
-                                <a href="index.html" class="header-logo-2">
-                                    <img src="{{ asset('peterson/img/logozirg.png') }}" alt="logo-img"  class="logo-zirg"     > 
+                                <a href="{{ route('home') }}" class="header-logo-2">
+                                    <img src="{{ asset('peterson/img/logozirg.png') }}" alt="logo-img"
+                                        class="logo-zirg">
                                 </a>
                             </div>
                         </div>
@@ -119,7 +126,7 @@
                                 <nav id="mobile-menu">
                                     <ul>
                                         <li class="has-dropdown active menu-thumb">
-                                            <a href="index.html">
+                                            <a href="{{ route('home') }}">
                                                 Home
                                             </a>
                                             <ul class="submenu has-homemenu">
@@ -194,7 +201,8 @@
                                             </ul>
                                         </li>
                                         <li class="has-dropdown active d-xl-none">
-                                            <a href="index.html" class="border-none">
+                                            <a href="{{ route('home') }}"
+                                                class="border-none <?= $pgAtual == 'home' ? 'ativo' : '' ?>">
                                                 Home
                                             </a>
                                             <ul class="submenu">
@@ -205,11 +213,11 @@
                                             </ul>
                                         </li>
                                         <li>
-                                            <a href="about.html">About Us</a>
+                                            <a href="{{ route('aboutUs') }}">Sobre</a>
                                         </li>
                                         <li class="has-dropdown">
-                                            <a href="service-details.html">
-                                                Service
+                                            <a href="{{ route('services') }}">
+                                                Serviços
                                             </a>
                                             <ul class="submenu">
                                                 <li><a href="service.html"> Our Service</a></li>
@@ -217,7 +225,7 @@
                                             </ul>
                                         </li>
                                         <li class="has-dropdown">
-                                            <a href="news-details.html">
+                                            <a href="{{ route('news') }}">
                                                 Pages
                                             </a>
                                             <ul class="submenu">
@@ -260,7 +268,7 @@
                                             </ul>
                                         </li>
                                         <li>
-                                            <a href="contact.html">Contact Us</a>
+                                            <a href="{{ route('contact') }}">Contato</a>
                                         </li>
                                     </ul>
                                 </nav>
